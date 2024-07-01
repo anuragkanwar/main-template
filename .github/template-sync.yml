@@ -4,3 +4,4 @@ files:
   - "!README.md"
   - "!.github/template-sync.yml"
   - "!.github/workflows/Template-Sync.yml"
+  - "!docs/"
