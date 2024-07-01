@@ -21,6 +21,8 @@ jobs:
               uses: ahmadnassri/action-workflow-queue@v1.2
             - name: Checkout
               uses: actions/checkout@v4.1.7
+            - name: Echo token
+              run: echo ${{ steps.app-token.outputs.token }}
             - name: Sync template
               uses: ahmadnassri/action-template-repository-sync@v2.6.3
               with:
