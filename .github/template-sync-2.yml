@@ -1,5 +1,5 @@
 additional:
-  - "main-template-prod"
+  - "main-template-prod-2"
 files:
   - "!README.md"
   - "!.github/template-sync.yml"
